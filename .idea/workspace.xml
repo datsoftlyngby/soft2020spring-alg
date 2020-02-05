@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd184784-acb7-4c07-a7c5-630eba114d24" name="Default Changelist" comment="" />
+    <list default="true" id="dd184784-acb7-4c07-a7c5-630eba114d24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/basics/QuickFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dk/cphbusiness/alg/basics/UnionFind.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,13 +43,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1XLEoFNVkahapP9c2mhLTENTytF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -50,7 +62,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Kotlin" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SvnConfiguration">
@@ -67,9 +80,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1352" y="-150" key="SettingsEditor" timestamp="1580817461590">
-      <screen x="-1920" y="-407" width="1920" height="1057" />
+    <state x="494" y="186" key="#com.intellij.ide.util.MemberChooser" timestamp="1580895261611">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="494" y="186" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1057@0.23.1920.1057" timestamp="1580895261611" />
+    <state x="644" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580895241197">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="644" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1580895241197" />
+    <state x="568" y="280" key="SettingsEditor" timestamp="1580893309400">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="-1352" y="-150" key="SettingsEditor/-1920.-407.1920.1057/0.23.1440.877@-1920.-407.1920.1057" timestamp="1580817461590" />
+    <state x="568" y="280" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1580893309400" />
   </component>
 </project>
