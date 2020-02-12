@@ -1,7 +1,7 @@
 package dk.cphbusiness.alg.basics
 
 interface Selection<T> : Iterable<T> {
-  fun isEmpty(): Boolean
+  fun isEmpty() = size == 0
   val size: Int
   }
 
