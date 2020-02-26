@@ -1,5 +1,6 @@
 package dk.cphbusiness.alg.basics;
 
+import dk.cphbusiness.alg.utils.ArrayIterator;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Iterator;
@@ -22,24 +23,9 @@ public class ArrayBag<T> implements Bag<T> {
 
   @NotNull
   @Override
-  public Iterator<T> iterator() { return new ArrayIterator(); }
-
-  private class ArrayIterator implements Iterator<T> {
-    int index = 0;
-    @Override
-    public boolean hasNext() { return index < size; }
-    @Override
-    public T next() { return items[index++]; }
-    }
+  public Iterator<T> iterator() { return new ArrayIterator<>(items, size); }
 
   @Override
   public boolean isEmpty() { return size == 0; }
 
-  public static void main(String[] args) {
-    Bag b = new ArrayBag<Integer>(10);
-    b.add(7);
-    b.add(9);
-    b.add(13);
-    for (Object item : b) System.out.println(item);
-    }
   }
