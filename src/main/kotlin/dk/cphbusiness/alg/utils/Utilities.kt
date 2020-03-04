@@ -3,11 +3,11 @@ package dk.cphbusiness.alg.utils
 import java.io.File
 import kotlin.concurrent.timer
 
-fun File.toStringArray(delimiterPattern: String) =
+fun File.toStringArray(delimiterPattern: String, toLower: Boolean = true) =
   readLines()
       .flatMap { it.split(delimiterPattern.toRegex()) }
       .filter { it.isNotEmpty() }
-      .map { it.toLowerCase() }
+      .map { if (toLower) it.toLowerCase() else it }
       .toTypedArray()
 
 fun stopwatch(body: () -> Unit): Double {
