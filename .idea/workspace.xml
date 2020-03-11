@@ -2,22 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd184784-acb7-4c07-a7c5-630eba114d24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/king-james-bible.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/many-sorted-numbers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dk/cphbusiness/alg/sorting/ShakespeareSuffixTrie.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dk/cphbusiness/alg/sorting/ShakespeareTrie.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dk/cphbusiness/alg/sorting/TreeSumTrie.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/airport/template/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/airport/template/Clock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/airport/template/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/airport/template/PassengerConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/airport/template/PassengerProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/airport/template/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/airport/template/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/airport/template/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/airport/template/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/basics/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/basics/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/basics/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/basics/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/basics/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/basics/ArrayPriorityQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/basics/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/basics/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dk/cphbusiness/alg/basics/Bags.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dk/cphbusiness/alg/basics/Container.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/dk/cphbusiness/alg/sorting/Tries.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dk/cphbusiness/alg/sorting/Tries.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dk/cphbusiness/alg/utils/Utilities.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dk/cphbusiness/alg/utils/Utilities.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +44,26 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="soft2020spring-alg" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="soft2020spring-alg" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="soft2020spring-alg" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -52,8 +75,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -85,25 +109,43 @@
       <recent name="dk.cphbusiness.alg.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.dk.cphbusiness.alg.sorting.ShakespeareSuffixTrieKt">
-    <configuration name="QueueTest.testArrayQueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.soft2020spring-alg [build]">
+    <configuration name="soft2020spring-alg [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dk.cphbusiness.alg.basics.QueueTest.testArrayQueue&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="soft2020spring-alg [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="dk.cphbusiness.alg.sorting.ShakespeareSuffixTrieKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -145,26 +187,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dk.cphbusiness.alg.sorting.TriesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="soft2020spring-alg.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="dk.cphbusiness.alg.sorting.TriesKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.soft2020spring-alg [build]" />
+        <item itemvalue="Gradle.soft2020spring-alg [clean]" />
         <item itemvalue="Kotlin.dk.cphbusiness.alg.sorting.ShakespeareSuffixTrieKt" />
         <item itemvalue="Kotlin.dk.cphbusiness.alg.sorting.ShakespeareTrieKt" />
         <item itemvalue="Kotlin.dk.cphbusiness.alg.sorting.TreeSumTrieKt" />
-        <item itemvalue="Kotlin.dk.cphbusiness.alg.sorting.TriesKt" />
-        <item itemvalue="Gradle.QueueTest.testArrayQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -200,14 +229,29 @@
       <option name="project" value="LOCAL" />
       <updated>1582704493670</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="more data">
+      <created>1583280213697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583280213698</updated>
+    </task>
+    <task id="LOCAL-00005" summary="more data">
+      <created>1583280222250</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583280222250</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="week-07-in-class" />
     <MESSAGE value="week-09-before-class" />
     <MESSAGE value=" week 9" />
-    <option name="LAST_COMMIT_MESSAGE" value=" week 9" />
+    <MESSAGE value="more data" />
+    <option name="LAST_COMMIT_MESSAGE" value="more data" />
   </component>
   <component name="WindowStateProjectService">
     <state x="427" y="129" key="#Project_Structure" timestamp="1582711105780">
@@ -215,10 +259,11 @@
     </state>
     <state x="427" y="129" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1582711105780" />
     <state x="320" y="128" key="#Project_Structure/1440.-37.1366.937/0.23.1440.877@0.23.1440.877" timestamp="1582664492524" />
-    <state x="433" y="181" key="#com.intellij.ide.util.MemberChooser" timestamp="1583229767618">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="371" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1583324102378">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="371" y="158" key="#com.intellij.ide.util.MemberChooser/-1920.-407.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581431431634" />
+    <state x="371" y="158" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-1680.-127.1680.1027@0.23.1440.877" timestamp="1583324102378" />
     <state x="433" y="181" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1583229767618" />
     <state x="494" y="186" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1057@0.23.1920.1057" timestamp="1582713466645" />
     <state x="371" y="158" key="#com.intellij.ide.util.MemberChooser/1440.-204.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581498823302" />
@@ -237,49 +282,57 @@
     </state>
     <state x="644" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1580895241197" />
     <state x="483" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1440.-37.1366.937/0.23.1440.877@0.23.1440.877" timestamp="1582662501913" />
-    <state x="279" y="65" key="CommitChangelistDialog2" timestamp="1583280213322">
+    <state x="279" y="65" key="CommitChangelistDialog2" timestamp="1583280222119">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="279" y="65" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1581513847227" />
     <state x="279" y="65" key="CommitChangelistDialog2/1440.-204.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1582704493527" />
-    <state x="279" y="65" key="CommitChangelistDialog2/1440.-37.1366.937/0.23.1440.877@0.23.1440.877" timestamp="1583280213322" />
-    <state width="1262" height="273" key="GridCell.Tab.0.bottom" timestamp="1582919380656">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="279" y="65" key="CommitChangelistDialog2/1440.-37.1366.937/0.23.1440.877@0.23.1440.877" timestamp="1583280222119" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1583508174159">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="366" key="GridCell.Tab.0.bottom/-1920.-407.1920.1057/0.23.1440.877@-1920.-407.1920.1057" timestamp="1581441695771" />
     <state width="1398" height="366" key="GridCell.Tab.0.bottom/-1920.-407.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581439342193" />
     <state width="1398" height="366" key="GridCell.Tab.0.bottom/0.23.1440.877/-1680.-127.1680.1027@-1680.-127.1680.1027" timestamp="1581492253153" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.877/-1680.-127.1680.1027@0.23.1440.877" timestamp="1583324283022" />
     <state width="1262" height="273" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1582919380656" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1583508174159" />
     <state width="1816" height="399" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1582714853241" />
     <state width="1398" height="366" key="GridCell.Tab.0.bottom/1440.-204.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581496581957" />
     <state width="1262" height="207" key="GridCell.Tab.0.bottom/1440.-37.1366.937/0.23.1440.877@0.23.1440.877" timestamp="1582826078796" />
-    <state width="1262" height="273" key="GridCell.Tab.0.center" timestamp="1582919380656">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1583508174158">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="366" key="GridCell.Tab.0.center/-1920.-407.1920.1057/0.23.1440.877@-1920.-407.1920.1057" timestamp="1581441695771" />
     <state width="1398" height="366" key="GridCell.Tab.0.center/-1920.-407.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581439342192" />
     <state width="1398" height="366" key="GridCell.Tab.0.center/0.23.1440.877/-1680.-127.1680.1027@-1680.-127.1680.1027" timestamp="1581492253152" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.877/-1680.-127.1680.1027@0.23.1440.877" timestamp="1583324283021" />
     <state width="1262" height="273" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1582919380656" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1583508174158" />
     <state width="1816" height="399" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1582714853240" />
     <state width="1398" height="366" key="GridCell.Tab.0.center/1440.-204.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581496581957" />
     <state width="1262" height="207" key="GridCell.Tab.0.center/1440.-37.1366.937/0.23.1440.877@0.23.1440.877" timestamp="1582826078795" />
-    <state width="1262" height="273" key="GridCell.Tab.0.left" timestamp="1582919380655">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1583508174158">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="366" key="GridCell.Tab.0.left/-1920.-407.1920.1057/0.23.1440.877@-1920.-407.1920.1057" timestamp="1581441695770" />
     <state width="1398" height="366" key="GridCell.Tab.0.left/-1920.-407.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581439342191" />
     <state width="1398" height="366" key="GridCell.Tab.0.left/0.23.1440.877/-1680.-127.1680.1027@-1680.-127.1680.1027" timestamp="1581492253152" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.877/-1680.-127.1680.1027@0.23.1440.877" timestamp="1583324283020" />
     <state width="1262" height="273" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1582919380655" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1583508174158" />
     <state width="1816" height="399" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1582714853240" />
     <state width="1398" height="366" key="GridCell.Tab.0.left/1440.-204.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581496581957" />
     <state width="1262" height="207" key="GridCell.Tab.0.left/1440.-37.1366.937/0.23.1440.877@0.23.1440.877" timestamp="1582826078794" />
-    <state width="1262" height="273" key="GridCell.Tab.0.right" timestamp="1582919380656">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1583508174158">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="366" key="GridCell.Tab.0.right/-1920.-407.1920.1057/0.23.1440.877@-1920.-407.1920.1057" timestamp="1581441695771" />
     <state width="1398" height="366" key="GridCell.Tab.0.right/-1920.-407.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581439342192" />
     <state width="1398" height="366" key="GridCell.Tab.0.right/0.23.1440.877/-1680.-127.1680.1027@-1680.-127.1680.1027" timestamp="1581492253152" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.877/-1680.-127.1680.1027@0.23.1440.877" timestamp="1583324283021" />
     <state width="1262" height="273" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1582919380656" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1583508174158" />
     <state width="1816" height="399" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1582714853240" />
     <state width="1398" height="366" key="GridCell.Tab.0.right/1440.-204.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581496581957" />
     <state width="1262" height="207" key="GridCell.Tab.0.right/1440.-37.1366.937/0.23.1440.877@0.23.1440.877" timestamp="1582826078796" />
@@ -315,14 +368,16 @@
     <state x="568" y="191" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582709045139" />
     <state x="416" y="66" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1583229246123" />
     <state x="568" y="280" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1580893309400" />
-    <state x="320" y="203" key="Vcs.Push.Dialog.v2" timestamp="1582704498272">
+    <state x="320" y="203" key="Vcs.Push.Dialog.v2" timestamp="1583280224882">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="320" y="203" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1581513851011" />
     <state x="320" y="203" key="Vcs.Push.Dialog.v2/1440.-204.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1582704498272" />
-    <state x="486" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582704413088">
+    <state x="320" y="203" key="Vcs.Push.Dialog.v2/1440.-37.1366.937/0.23.1440.877@0.23.1440.877" timestamp="1583280224882" />
+    <state x="486" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583910945940">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="486" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-1680.-127.1680.1027@0.23.1440.877" timestamp="1583910945940" />
     <state x="486" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.-204.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1582704413088" />
     <state x="194" y="45" key="new project wizard" timestamp="1583263283180">
       <screen x="0" y="23" width="1440" height="877" />

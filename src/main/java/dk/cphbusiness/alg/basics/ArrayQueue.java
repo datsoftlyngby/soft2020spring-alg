@@ -18,9 +18,6 @@ public class ArrayQueue<T> implements Queue<T> {
   public int getSize() { return end - start; }
 
   @Override
-  public boolean isEmpty() { return start == end; }
-
-  @Override
   public void enqueue(T item) {
     items[end++] = item;
     end = end%items.length;

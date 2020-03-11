@@ -5,7 +5,7 @@ import dk.cphbusiness.alg.utils.toStringArray
 import java.io.File
 
 fun String.before(position: Int) = if (position >= length) this else substring(0, position)
-fun String.at(position: Int) = if (position >= length) "" else this[position]
+fun String.at(position: Int) = if (position >= length) "" else this[position].toString()
 fun String.after(position: Int) = if (position >= length) "" else substring(position + 1)
 
 interface Key {
