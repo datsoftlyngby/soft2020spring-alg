@@ -3,14 +3,25 @@ package dk.cphbusiness.alg.graphs;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MatrixGraph implements Graph {
+public class AdjacencyGraph implements Graph {
+  private boolean isUndirected = true;
   private final int V;
   private int E = 0;
-  private boolean[][] edges;
+  private final EdgeNode[] vertices;
 
-  public MatrixGraph(int V) {
+  public AdjacencyGraph(int V) {
     this.V = V;
-    edges = new boolean[V][V];
+    vertices = new EdgeNode[V];
+    }
+
+  private class EdgeNode {
+    int v;
+    EdgeNode next;
+
+    EdgeNode(int v, EdgeNode next) {
+      this.v = v;
+      this.next = next;
+      }
     }
 
   @Override
@@ -21,15 +32,22 @@ public class MatrixGraph implements Graph {
 
   @Override
   public void addEdge(int v, int w) {
-    edges[v][w] = true;
-    E++;
+    EdgeNode node = new EdgeNode(w, vertices[v]);
+    vertices[v] = node;
+    if (isUndirected) {
+      EdgeNode node2 = new EdgeNode(v, vertices[w]);
+      vertices[w] = node2;
+      }
     }
 
   @Override
   public Iterable<Integer> adjacents(int v) {
     List<Integer> adjacents = new ArrayList<>();
-    for (int w = 0; w < V; w++)
-        if (edges[v][w]) adjacents.add(w);
+    EdgeNode node = vertices[v];
+    while (node != null) {
+      adjacents.add(node.v);
+      node = node.next;
+      }
     return adjacents;
     }
 
@@ -43,7 +61,7 @@ public class MatrixGraph implements Graph {
     }
 
   public static void main(String[] args) {
-    Graph g = new MatrixGraph(6);
+    Graph g = new AdjacencyGraph(6);
     g.addEdge(0, 1);
     g.addEdge(0, 2);
     g.addEdge(2, 0);
@@ -55,14 +73,13 @@ public class MatrixGraph implements Graph {
     g.addEdge(5, 3);
     System.out.println(g);
     /*
-      0: [1, 2]
+      0: [2, 1]
       1: []
-      2: [0, 3, 4]
-      3: [4, 5]
+      2: [4, 3, 0]
+      3: [5, 4]
       4: []
-      5: [0, 3]
+      5: [3, 0]
     */
     }
-
 
   }
