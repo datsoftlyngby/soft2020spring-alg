@@ -23,8 +23,12 @@ public class HashProgram {
     test(words, word -> word.charAt(word.length() - 1)%32);
     System.out.println("-------------------------");
 
-    System.out.println("Last Character:");
+    System.out.println("Sum Characters:");
     test(words, word -> word.chars().sum()%32);
+    System.out.println("-------------------------");
+
+    System.out.println("Using hashCode():");
+    test(words, word -> word.hashCode() & 31);
     System.out.println("-------------------------");
     }
   }

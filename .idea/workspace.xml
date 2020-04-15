@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd184784-acb7-4c07-a7c5-630eba114d24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/utils/HashFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/utils/HashProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/utils/HashProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/cphbusiness/alg/utils/HashProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,23 +31,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="soft2020spring-alg" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="soft2020spring-alg" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="soft2020spring-alg" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -84,7 +67,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -92,7 +75,7 @@
       <recent name="dk.cphbusiness.alg.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashProgram">
+  <component name="RunManager" selected="Kotlin.dk.cphbusiness.alg.sorting.ShakespeareSuffixTrieKt">
     <configuration name="HashProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dk.cphbusiness.alg.utils.HashProgram" />
       <module name="soft2020spring-alg.main" />
@@ -144,7 +127,7 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="dk.cphbusiness.alg.sorting.ShakespeareSuffixTrieKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="dk.cphbusiness.alg.sorting.ShakespeareSuffixTrieKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="soft2020spring-alg.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -157,7 +140,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dk.cphbusiness.alg.sorting.ShakespeareTrieKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="dk.cphbusiness.alg.sorting.ShakespeareTrieKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="soft2020spring-alg.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -172,10 +155,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.dk.cphbusiness.alg.sorting.ShakespeareSuffixTrieKt" />
         <item itemvalue="Application.HashProgram" />
         <item itemvalue="Gradle.soft2020spring-alg [build]" />
         <item itemvalue="Gradle.soft2020spring-alg [clean]" />
-        <item itemvalue="Kotlin.dk.cphbusiness.alg.sorting.ShakespeareSuffixTrieKt" />
         <item itemvalue="Kotlin.dk.cphbusiness.alg.sorting.ShakespeareTrieKt" />
       </list>
     </recent_temporary>
@@ -289,52 +272,52 @@
     <state x="372" y="74" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1583916755245" />
     <state x="279" y="65" key="CommitChangelistDialog2/1440.-204.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1582704493527" />
     <state x="279" y="65" key="CommitChangelistDialog2/1440.-37.1366.937/0.23.1440.877@0.23.1440.877" timestamp="1583280222119" />
-    <state width="1878" height="501" key="GridCell.Tab.0.bottom" timestamp="1583918772702">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1398" height="194" key="GridCell.Tab.0.bottom" timestamp="1584565479807">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="366" key="GridCell.Tab.0.bottom/-1920.-407.1920.1057/0.23.1440.877@-1920.-407.1920.1057" timestamp="1581441695771" />
     <state width="1398" height="366" key="GridCell.Tab.0.bottom/-1920.-407.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581439342193" />
     <state width="1398" height="366" key="GridCell.Tab.0.bottom/0.23.1440.877/-1680.-127.1680.1027@-1680.-127.1680.1027" timestamp="1581492253153" />
     <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.877/-1680.-127.1680.1027@0.23.1440.877" timestamp="1583324283022" />
     <state width="1262" height="273" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1582919380656" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1583508174159" />
-    <state width="1878" height="501" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1583918772702" />
+    <state width="1398" height="194" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1584565479807" />
+    <state width="1878" height="275" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1583919444596" />
     <state width="1398" height="366" key="GridCell.Tab.0.bottom/1440.-204.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581496581957" />
     <state width="1262" height="207" key="GridCell.Tab.0.bottom/1440.-37.1366.937/0.23.1440.877@0.23.1440.877" timestamp="1582826078796" />
-    <state width="1878" height="501" key="GridCell.Tab.0.center" timestamp="1583918772701">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1398" height="194" key="GridCell.Tab.0.center" timestamp="1584565479806">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="366" key="GridCell.Tab.0.center/-1920.-407.1920.1057/0.23.1440.877@-1920.-407.1920.1057" timestamp="1581441695771" />
     <state width="1398" height="366" key="GridCell.Tab.0.center/-1920.-407.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581439342192" />
     <state width="1398" height="366" key="GridCell.Tab.0.center/0.23.1440.877/-1680.-127.1680.1027@-1680.-127.1680.1027" timestamp="1581492253152" />
     <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.877/-1680.-127.1680.1027@0.23.1440.877" timestamp="1583324283021" />
     <state width="1262" height="273" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1582919380656" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1583508174158" />
-    <state width="1878" height="501" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1583918772701" />
+    <state width="1398" height="194" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1584565479806" />
+    <state width="1878" height="275" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1583919444595" />
     <state width="1398" height="366" key="GridCell.Tab.0.center/1440.-204.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581496581957" />
     <state width="1262" height="207" key="GridCell.Tab.0.center/1440.-37.1366.937/0.23.1440.877@0.23.1440.877" timestamp="1582826078795" />
-    <state width="1878" height="501" key="GridCell.Tab.0.left" timestamp="1583918772701">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1398" height="194" key="GridCell.Tab.0.left" timestamp="1584565479806">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="366" key="GridCell.Tab.0.left/-1920.-407.1920.1057/0.23.1440.877@-1920.-407.1920.1057" timestamp="1581441695770" />
     <state width="1398" height="366" key="GridCell.Tab.0.left/-1920.-407.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581439342191" />
     <state width="1398" height="366" key="GridCell.Tab.0.left/0.23.1440.877/-1680.-127.1680.1027@-1680.-127.1680.1027" timestamp="1581492253152" />
     <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.877/-1680.-127.1680.1027@0.23.1440.877" timestamp="1583324283020" />
     <state width="1262" height="273" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1582919380655" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1583508174158" />
-    <state width="1878" height="501" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1583918772701" />
+    <state width="1398" height="194" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1584565479806" />
+    <state width="1878" height="275" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1583919444595" />
     <state width="1398" height="366" key="GridCell.Tab.0.left/1440.-204.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581496581957" />
     <state width="1262" height="207" key="GridCell.Tab.0.left/1440.-37.1366.937/0.23.1440.877@0.23.1440.877" timestamp="1582826078794" />
-    <state width="1878" height="501" key="GridCell.Tab.0.right" timestamp="1583918772701">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1398" height="194" key="GridCell.Tab.0.right" timestamp="1584565479806">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="366" key="GridCell.Tab.0.right/-1920.-407.1920.1057/0.23.1440.877@-1920.-407.1920.1057" timestamp="1581441695771" />
     <state width="1398" height="366" key="GridCell.Tab.0.right/-1920.-407.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581439342192" />
     <state width="1398" height="366" key="GridCell.Tab.0.right/0.23.1440.877/-1680.-127.1680.1027@-1680.-127.1680.1027" timestamp="1581492253152" />
     <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.877/-1680.-127.1680.1027@0.23.1440.877" timestamp="1583324283021" />
     <state width="1262" height="273" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1582919380656" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1583508174158" />
-    <state width="1878" height="501" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1583918772701" />
+    <state width="1398" height="194" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1584565479806" />
+    <state width="1878" height="275" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1583919444596" />
     <state width="1398" height="366" key="GridCell.Tab.0.right/1440.-204.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581496581957" />
     <state width="1262" height="207" key="GridCell.Tab.0.right/1440.-37.1366.937/0.23.1440.877@0.23.1440.877" timestamp="1582826078796" />
     <state width="1262" height="273" key="GridCell.Tab.1.bottom" timestamp="1582919380658">
@@ -361,14 +344,14 @@
     <state width="1262" height="273" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1582919380657" />
     <state width="1816" height="273" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1582714439313" />
     <state width="1262" height="273" key="GridCell.Tab.1.right/1440.-37.1366.937/0.23.1440.877@0.23.1440.877" timestamp="1582804318277" />
-    <state x="416" y="66" key="SettingsEditor" timestamp="1583229246123">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="568" y="280" key="SettingsEditor" timestamp="1583920899256">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="-1352" y="-150" key="SettingsEditor/-1920.-407.1920.1057/0.23.1440.877@-1920.-407.1920.1057" timestamp="1580817461590" />
     <state x="426" y="178" key="SettingsEditor/-1920.-407.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581429978050" />
     <state x="568" y="191" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582709045139" />
     <state x="416" y="66" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1583229246123" />
-    <state x="568" y="280" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1580893309400" />
+    <state x="568" y="280" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1583920899256" />
     <state x="320" y="203" key="Vcs.Push.Dialog.v2" timestamp="1583910975776">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -376,9 +359,10 @@
     <state x="320" y="203" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1581513851011" />
     <state x="320" y="203" key="Vcs.Push.Dialog.v2/1440.-204.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1582704498272" />
     <state x="320" y="203" key="Vcs.Push.Dialog.v2/1440.-37.1366.937/0.23.1440.877@0.23.1440.877" timestamp="1583280224882" />
-    <state x="648" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583916740280">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="486" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586935307283">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="486" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-407.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586935307283" />
     <state x="486" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-1680.-127.1680.1027@0.23.1440.877" timestamp="1583910945940" />
     <state x="648" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1057@0.23.1920.1057" timestamp="1583916740280" />
     <state x="486" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.-204.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1582704413088" />
@@ -390,6 +374,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="704" y="115" key="refactoring.ChangeSignatureDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1582120571343" />
+    <state x="625" y="256" width="670" height="675" key="run.anything.popup" timestamp="1583920866589">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="625" y="256" width="670" height="675" key="run.anything.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1583920866589" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1582119911239">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -402,16 +390,6 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/dk/cphbusiness/alg/sorting/TreeSumTrie.kt</url>
           <line>14</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/dk/cphbusiness/alg/sorting/ShakespeareSuffixTrie.kt</url>
-          <line>24</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/dk/cphbusiness/alg/sorting/ShakespeareSuffixTrie.kt</url>
-          <line>29</line>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
