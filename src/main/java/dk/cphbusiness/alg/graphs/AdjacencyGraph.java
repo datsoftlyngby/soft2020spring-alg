@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AdjacencyGraph implements Graph {
-  private boolean isUndirected = true;
   private final int V;
   private int E = 0;
   private final EdgeNode[] vertices;
@@ -34,10 +33,7 @@ public class AdjacencyGraph implements Graph {
   public void addEdge(int v, int w) {
     EdgeNode node = new EdgeNode(w, vertices[v]);
     vertices[v] = node;
-    if (isUndirected) {
-      EdgeNode node2 = new EdgeNode(v, vertices[w]);
-      vertices[w] = node2;
-      }
+    E++;
     }
 
   @Override

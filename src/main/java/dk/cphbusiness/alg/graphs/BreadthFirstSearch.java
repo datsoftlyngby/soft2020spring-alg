@@ -1,20 +1,20 @@
 package dk.cphbusiness.alg.graphs;
 
-import dk.cphbusiness.alg.basics.ArrayStack;
-import dk.cphbusiness.alg.basics.Stack;
+import dk.cphbusiness.alg.basics.ArrayQueue;
+import dk.cphbusiness.alg.basics.Queue;
 
 import java.io.PrintStream;
 
-public class DepthFirstSearch {
+public class BreadthFirstSearch {
   private final Graph graph;
   private int[] visitedFrom;
-  private Stack<Edge> edges;
+  private Queue<Edge> edges;
 
-  public DepthFirstSearch(Graph graph) {
+  public BreadthFirstSearch(Graph graph) {
     this.graph = graph;
     visitedFrom = new int[graph.getV()];
     for (int v = 0; v < visitedFrom.length; v++) visitedFrom[v] = -1;
-    edges = new ArrayStack<>(1_000);
+    edges = new ArrayQueue<>(1_000);
     }
 
   private class Edge {
@@ -35,14 +35,14 @@ public class DepthFirstSearch {
   private void register(Edge edge) {
     if (visitedFrom[edge.to] != -1) return;
     // only register if 'to' has not been registered already
-    edges.push(edge);
+    edges.enqueue(edge);
     visitedFrom[edge.to] = edge.from;
     }
 
   public void searchFrom(int v) {
     register(new Edge(v, v));
     while (!edges.isEmpty()) {
-      Edge step = edges.pop();
+      Edge step = edges.dequeue();
       for (int w : graph.adjacents(step.to))
           register(new Edge(step.to, w));
       }
@@ -72,9 +72,9 @@ public class DepthFirstSearch {
     g.addUndirectedEdge(3, 4);
     g.addUndirectedEdge(5, 3);
 
-    DepthFirstSearch dfs = new DepthFirstSearch(g);
-    dfs.searchFrom(0);
-    dfs.print(System.out);
+    BreadthFirstSearch bfs = new BreadthFirstSearch(g);
+    bfs.searchFrom(0);
+    bfs.print(System.out);
     }
 
   }
